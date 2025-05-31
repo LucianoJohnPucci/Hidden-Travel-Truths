@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body {
+  font-family: 'Nunito', Arial, sans-serif;
+  font-size: 20px;
+  background: #f8fafc;
+  color: #1a202c;
+  margin: 0;
+  padding: 0;
+}
+
+input, select, button, label, textarea {
+  font-family: 'Nunito', Arial, sans-serif;
+  font-size: 1.1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nunito', Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  margin-bottom: 0.3em;
+}
+
+label {
+  font-size: 1.05em;
+}
+
+button {
+  font-size: 1.15em;
+  font-weight: 700;
+  padding: 16px 0;
+}
+
+form {
+  gap: 18px;
+}
+
+/* Map popup font fix */
+.leaflet-container {
+  font-family: 'Nunito', Arial, sans-serif;
+  font-size: 1.1em;
+}
