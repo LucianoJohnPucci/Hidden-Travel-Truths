@@ -37,7 +37,16 @@ export default function AdvicePage() {
 
   return (
     <main style={{ minHeight: '100vh', padding: 24, background: '#f8fafc', fontFamily: 'sans-serif' }}>
-      <h2 style={{ textAlign: 'center', marginBottom: 24 }}>Hidden Travel Truths</h2>
+      <h2 style={{ 
+        textAlign: 'center', 
+        marginBottom: 24, 
+        fontSize: '2.6rem', 
+        fontWeight: 800, 
+        fontFamily: `'Montserrat', 'Quicksand', 'Poppins', 'Segoe UI', 'Arial', 'sans-serif'`,
+        letterSpacing: '0.03em',
+        color: '#0369a1',
+        textShadow: '0 2px 8px #0369a122'
+      }}>Behind the Brochure</h2>
       <div style={{ maxWidth: 500, margin: '0 auto', display: 'flex', flexDirection: 'column', gap: 32 }}>
         <div style={{ width: '100%' }}>
           <TravelForm onResult={handleResult} onStartLoading={handleStartLoading} onDailyLimit={handleDailyLimit} />
