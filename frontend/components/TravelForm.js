@@ -65,7 +65,7 @@ export default function TravelForm({ onResult, onStartLoading, onDailyLimit }) {
     if (onStartLoading) onStartLoading();
     // Send data to webhook
     try {
-      const res = await fetch('https://primary-production-b031.up.railway.app/webhook-test/2aae2967-55d3-4ef5-831b-9b01b9f36fd3', {
+      const res = await fetch('https://n8n.puffcloud.net/webhook/2aae2967-55d3-4ef5-831b-9b01b9f36fd3', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
